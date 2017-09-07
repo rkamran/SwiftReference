@@ -353,5 +353,15 @@ else{
 
 print(funnyString(source: "Rashid"))
 
+let result = returnMultiple()
+print(result.hello)
+print(result.world)
+
+let numericValue = 1
+print(stepFunction(back: true)(numericValue))
+print(stepFunction(back: false)(numericValue))
+
+print(addtion(a: 1, b: 2, op: /))
+
 print("Hello, World! π = \(π) and 😸 = \(😸)")
 
