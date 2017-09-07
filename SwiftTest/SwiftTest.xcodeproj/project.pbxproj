@@ -240,9 +240,11 @@
 		043FAFC91F5F069A0048AC07 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LCBDY3U9B4;
+				DEVELOPMENT_TEAM = AAW2A2JS9M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -250,9 +252,11 @@
 		043FAFCA1F5F069A0048AC07 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LCBDY3U9B4;
+				DEVELOPMENT_TEAM = AAW2A2JS9M;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
