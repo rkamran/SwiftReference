@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04192EDF1F6C3A1200BEAD80 /* ErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04192EDE1F6C3A1200BEAD80 /* ErrorHandling.swift */; };
 		043FAFC51F5F069A0048AC07 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FAFC41F5F069A0048AC07 /* main.swift */; };
 		043FAFCC1F5F5B0A0048AC07 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FAFCB1F5F5B0A0048AC07 /* Functions.swift */; };
+		043FAFCE1F67371B0048AC07 /* Enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FAFCD1F67371B0048AC07 /* Enumerations.swift */; };
+		043FAFD01F687E4F0048AC07 /* ClassNStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FAFCF1F687E4F0048AC07 /* ClassNStructure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,9 +27,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04192EDE1F6C3A1200BEAD80 /* ErrorHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandling.swift; sourceTree = "<group>"; };
 		043FAFC11F5F069A0048AC07 /* SwiftTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		043FAFC41F5F069A0048AC07 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		043FAFCB1F5F5B0A0048AC07 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		043FAFCD1F67371B0048AC07 /* Enumerations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enumerations.swift; sourceTree = "<group>"; };
+		043FAFCF1F687E4F0048AC07 /* ClassNStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassNStructure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 			children = (
 				043FAFC41F5F069A0048AC07 /* main.swift */,
 				043FAFCB1F5F5B0A0048AC07 /* Functions.swift */,
+				043FAFCD1F67371B0048AC07 /* Enumerations.swift */,
+				043FAFCF1F687E4F0048AC07 /* ClassNStructure.swift */,
+				04192EDE1F6C3A1200BEAD80 /* ErrorHandling.swift */,
 			);
 			path = SwiftTest;
 			sourceTree = "<group>";
@@ -124,7 +133,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				043FAFC51F5F069A0048AC07 /* main.swift in Sources */,
+				043FAFD01F687E4F0048AC07 /* ClassNStructure.swift in Sources */,
+				04192EDF1F6C3A1200BEAD80 /* ErrorHandling.swift in Sources */,
 				043FAFCC1F5F5B0A0048AC07 /* Functions.swift in Sources */,
+				043FAFCE1F67371B0048AC07 /* Enumerations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,7 +254,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AAW2A2JS9M;
+				DEVELOPMENT_TEAM = 9Y299EHM72;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -254,7 +266,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AAW2A2JS9M;
+				DEVELOPMENT_TEAM = 9Y299EHM72;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;

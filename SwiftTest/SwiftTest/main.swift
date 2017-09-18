@@ -363,5 +363,24 @@ print(stepFunction(back: false)(numericValue))
 
 print(addtion(a: 1, b: 2, op: /))
 
+//--> Testing Enum
+testEnum3(thisOne: .enum32)
+
+//--> Testing class and struct
+propertyTest()
+testInheritance()
+
+
+//--> Optional chaning
+var aVar: TestClass?// = TestClass()
+aVar?.prop1 = "Hello"
+print(aVar?.thisFunction() != nil)
+
+//--> Error
+putErrorsTogether()
+deferTest()
+
+//--> Type casting
+testTypes(box: ScreamingMessageBox(formalMessage: "Aaaaa!!!!"))
 print("Hello, World! π = \(π) and 😸 = \(😸)")
 
