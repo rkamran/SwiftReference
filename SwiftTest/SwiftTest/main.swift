@@ -3,7 +3,6 @@
 //  SwiftTest
 //
 //  Created by Rashid Kamran on 9/5/17.
-//  Copyright © 2017 DIRECTV. All rights reserved.
 //
 
 import Foundation
