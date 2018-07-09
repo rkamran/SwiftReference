@@ -1,2 +1,2 @@
 # SwiftReference
-Keeping track of syntax changes and best way to code certain certain scenarios. 
+Keeping track of syntax changes and best way to code certain scenarios. 
